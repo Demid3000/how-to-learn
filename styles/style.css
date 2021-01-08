@@ -140,7 +140,7 @@
   padding-top: 100px;
   min-height: 790px;
   position: relative;
-  background:url(/Yandex/images/feynman.png) no-repeat #f2f2f2;
+  background:url(../images/feynman.png) no-repeat #f2f2f2;
   background-position: left bottom -10px;
 }
 
@@ -198,7 +198,7 @@ color:white;
 }
 .triangle{
 position: absolute;
-background-image:url(/Yandex/images/kaufman-triangle.svg);
+background-image:url(../images/kaufman-triangle.svg);
 background-size: cover;
 width: 877px;
 height: 877px;
