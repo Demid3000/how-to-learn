@@ -199,6 +199,9 @@ margin: 0;
   position: absolute;
   right:48px;
   top: 50%;
+  text-decoration:none;
+  color: #2f80ed;
+  cursor: pointer;
 }
 
 /* РАБОТА С 5 БЛОКОМ */
@@ -354,11 +357,6 @@ right: -210px;
   color:black;
 }
 
-.feynman__link{
-  text-decoration:none;
-  color: #2f80ed;
-  cursor: pointer;
-}
 .feynman__link:hover{
   background: #2f80ed;
   color:black;
