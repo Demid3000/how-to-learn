@@ -3,16 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="vendor/normalize.css">
   <link rel="stylesheet" href="root/root.css">
   <link rel="stylesheet" href="pages/index.css">
-  <link rel="stylesheet" href="blocks/header/header.css">
-  <link rel="stylesheet" href="blocks/description/description.css">
-  <link rel="stylesheet" href="blocks/digits/digits.css">
-  <link rel="stylesheet" href="blocks/feynman/feynman.css">
-  <link rel="stylesheet" href="blocks/kaufman/kaufman.css">
-  <link rel="stylesheet" href="blocks/footer/footer.css">
 <title>Научиться учиться</title>
 </head>
 <body>
@@ -67,10 +60,21 @@
           <div class="cards__item">
             <img src="./images/cards-competence.png" alt="Книга" class="cards_image">
             <h3 class="cards_title">Иллюзия компетентности</h3>
-            <p class="cards_description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+            <p class="cards_description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
           </div>
         </div>
       </section>
+      
+      <section class="video">
+        <h2 class="section-title">Видео на TED</h2>
+        <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
+        <div class="video_iframes">
+          <div class="video_iframe">
+            <iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </video>
 
       <section class="oakley">
         <div class="two-columns">
@@ -137,7 +141,7 @@
          <div class="khan__container">
            <div class="khan__author">Салман Хан</div>
            <div class="khan__title">Весь мир — школа</div>
-           <div class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</div>
+           <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
            <div class="khan__quote-author">Джордж Лукас</div>
            <div class="khan__quote-author-subline">Кинорежиссер, продюсер</div>
            <div class="khan__book-container">
@@ -153,7 +157,7 @@
         </div>
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
           <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
-        <div class="table  table_theme_dark">
+        <div class="table  table__theme_dark">
           <div class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">1</h3>
             <p class="table__text table__text_theme_dark">Выберите привлекательный проект.</p>
@@ -194,6 +198,17 @@
             <h3 class="table__heading table__heading_theme_dark">10</h3>
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </div>
+        </div>
+      </section>
+
+      <section class="resources">
+        <div class="section-title resources__section-title">Полезные ресурсы</div>
+        <div class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</div>
+        <div class="resources__logo-zone">
+          <img src="images/resources-arzamas.svg" alt="arzamas" class="resources_logo">
+          <img src="images/resources-n1.svg" alt="N+1" class="resources_logo">
+          <img src="images/resources-strelka.svg" alt="strelka" class="resources_logo">
+          <img src="images/resources-polka.svg" alt="ПОЛКА" class="resources_logo">
         </div>
       </section>
     </main>

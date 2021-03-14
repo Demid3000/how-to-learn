@@ -1,0 +1,6 @@
+.cards__item{
+    margin-left: 40px;
+}
+.cards__item:last-of-type{
+    margin-right: 0;
+}

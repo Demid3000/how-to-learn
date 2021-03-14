@@ -4,6 +4,6 @@
     cursor: pointer;
   }
   .header__link:hover{
-    background: #2f80ed;
-    color:black;
+    opacity: 0.5;
+   transition: all linear 0.3s;
   }
