@@ -1,7 +1,8 @@
 .two-columns__brief{
     max-width: 175px;
     width: 100%;
-    height: 330px;
+    max-height: 330px;
+    height: 100%;
     font-size: 18px;
     line-height: 1.2;
     font-weight: normal;
