@@ -39,7 +39,7 @@
 @import url(../blocks/techniques/techniques.css);
 /*Секция video*/
 @import url(../blocks/video/video.css);
-@import url(../blocks/video/__iframes/_iframe/video_iframe.css);
+@import url(../blocks/video/__iframes/_iframe/video__iframe.css);
 @import url(../blocks/video/__iframes/video__iframes.css);
 /*Секция oakley*/
 @import url(../blocks/oakley/oakley.css);
